@@ -42,7 +42,7 @@ ul
     display: flex;
     justify-content: flex-start;
     gap: 2%;
-    padding: 30px;
+    padding: 20px;
     transform: rotate(180deg);
 }
 
@@ -50,9 +50,9 @@ ul > li
 {
     transform: rotate(-180deg);
     padding: 5px 10px;
-    margin-right: 10px;
     background: #fff;
     position: relative;
+    margin-right: 10px;
 
 }
 
