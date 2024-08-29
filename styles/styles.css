@@ -123,6 +123,11 @@ ul li:last-child
     padding-top: 10px;
 }
 
+#list-page #title a:hover
+{
+    color: #5BADf0;
+}
+
 #list-page
 {
     max-width: 580px;
