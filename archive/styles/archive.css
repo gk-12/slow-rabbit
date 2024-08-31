@@ -1,0 +1,206 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0.008em;
+    line-height: 1.74;
+    color: #404040;
+}
+
+.nav-bar 
+{
+    text-align: right;
+}
+
+nav 
+{
+    flex-direction: row;
+}
+
+nav.nav-bar a
+{
+    text-decoration: none;
+    color: #5BADf0;
+}
+
+#c1
+{
+    font-size: 13px;
+    color:#5BADf0;
+}
+
+ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+    padding: 20px;
+    transform: rotate(180deg);
+}
+
+ul > li
+{
+    transform: rotate(-180deg);
+    padding: 5px 10px;
+    background: #fff;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+ul li a::before
+{
+    content: '';
+    position: absolute;
+    border-left:1px solid ;
+    left:-20px;
+    bottom: 5px;
+    z-index: -1;
+    height:50%
+}
+
+ul li:last-child a:before
+{
+    content: none;
+}
+
+ul li:last-child
+{
+    padding-bottom: 0;
+}
+
+#c1 > a:hover
+{
+    color: #404040;
+}
+
+.header
+{
+    text-align: center;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+
+.photo
+{
+    border-radius: 50%; 
+    image-resolution: 100%;
+    width: 80px;
+    height: 80px;
+
+}
+
+.main
+{
+    width: 100%;
+}
+
+.main-h
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: #404040;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.sub-h
+{
+    font-size: 20px;
+    color: gray;
+    padding-top: 10px;
+    font-weight: 300;
+    color: #757575;
+    padding-top: 10px;
+}
+
+#archive
+{
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+#archive .group
+{
+    margin: 24px auto;
+}
+
+#archive .group .key
+{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+h1, h2, h3
+{
+    font-weight: 400;
+}
+
+#archive .group .value .title
+{
+    display: inline;
+}
+
+#archive .group .value{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+#archive .group .value .date
+{
+    display: inline;
+    color: #999;
+    min-width: 60px;
+}
+
+#archive .group .value .title
+{
+    display: inline;
+}
+
+#archive .group .value .title a
+{
+    color:#404040;
+
+}
+#archive .group .value .title a:hover
+{
+    color: #5BADf0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#footer
+{
+    text-align: center;
+    margin: 100px auto;
+    color: #bbbbbb;
+    font-size: 14px;
+
+}
+
+#social
+{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+
+#footer .copyright
+{
+    margin: 20px auto;
+    font-size: 15px;
+    align-self: flex-start;
+}
