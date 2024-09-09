@@ -33,6 +33,7 @@ nav.nav-bar a
 {
     font-size: 13px;
     color:#5BADf0;
+    font-size: 13px;
 }
 
 ul 
@@ -53,27 +54,6 @@ ul > li
     position: relative;
     margin-right: 10px;
 
-}
-
-ul li a::before
-{
-    content: '';
-    position: absolute;
-    border-left:1px solid ;
-    left:-20px;
-    bottom: 5px;
-    z-index: -1;
-    height:50%
-}
-
-ul li:last-child a:before
-{
-    content: none;
-}
-
-ul li:last-child
-{
-    padding-bottom: 0;
 }
 
 #c1 > a:hover
