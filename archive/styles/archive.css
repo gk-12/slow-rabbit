@@ -136,6 +136,8 @@ ul li:last-child
 
 #archive .group .key
 {
+    display: flex;
+    justify-content: flex-end;
     font-size: 20px;
     margin-bottom: 12px;
 }
@@ -150,9 +152,13 @@ h1, h2, h3
 }
 
 #archive .group .value{
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    gap: 2%;
     font-size: 16px;
     margin-bottom: 12px;
+
 }
 
 #archive .group .value .date
@@ -160,6 +166,7 @@ h1, h2, h3
     display: inline;
     color: #999;
     min-width: 60px;
+    float: right;
 }
 
 #archive .group .value .title
@@ -170,6 +177,7 @@ h1, h2, h3
 #archive .group .value .title a
 {
     color:#404040;
+    float: right;
 
 }
 #archive .group .value .title a:hover
