@@ -1,0 +1,147 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0.0008em;
+    line-height: 1;
+    color: #404040;
+}
+
+.nav-bar 
+{
+    text-align: right;
+}
+
+nav 
+{
+    flex-direction: row;
+}
+
+nav.nav-bar a
+{
+    text-decoration: none;
+    color: #5BADf0;
+}
+
+#c1
+{
+    font-size: 13px;
+    color:#5BADf0;
+}
+
+ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+    padding: 20px;
+    transform: rotate(180deg);
+}
+
+ul > li
+{
+    transform: rotate(-180deg);
+    padding: 5px 10px;
+    background: #fff;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+#c1 > a:hover
+{
+    color: #404040;
+}
+
+.header
+{
+    text-align: center;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+
+.photo
+{
+    border-radius: 50%; 
+    image-resolution: 100%;
+    width: 80px;
+    height: 80px;
+
+}
+
+.main
+{
+    width: 100%;
+}
+
+.main-h
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: #404040;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+#tags
+{
+    max-width: 700px;
+    margin: 48px auto 0 auto;
+    padding: 0 12px;
+    text-align: center;
+}
+
+#tags .tag
+{
+    margin: 7px 7px;
+}
+
+#tags .tag a
+{
+    background-color: #f2f2f2;
+    padding: 4px 7px;
+    color: #404040;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#tags .tag a:hover
+{
+    color: #5BADf0;
+}
+
+
+#footer
+{
+    text-align: center;
+    margin: 100px auto;
+    color: #bbbbbb;
+    font-size: 14px;
+
+}
+
+#social
+{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+
+#footer .copyright
+{
+    margin: 20px auto;
+    font-size: 15px;
+    align-self: flex-start;
+}
